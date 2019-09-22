@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+/*---серый фон для шапки---*/
+.grey-back {
+  background-color: #eeeeee;   
+}
+
+
+/* ссылка не подчеркивается */
+a {
+  text-decoration: none;  
+}
+
+.visually-hidden {  /*--скрытый заголовок---*/
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/*--шрифты--*/
+
+.superbig {
+  font-size: 55px;
+}
+
+.big {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.big-2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.screaming-inscription {
+  font-size: 45px;
+}
+
+.small {
+  font-weight: bold;
+}
+
+.verysmall {
+  font-size: 14px;
+}
+
+
+.design {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.adress {
+  font-size: 16px;
+  color: #7a7a7a;
+}
+
+/*--кнопки--*/
+
+.red-button {
+  width: 240px;
+  height: 50px;
+  background-color: #fb565a;
+  color: white;
+  border: none;
+}
+
+.red-button-2 {
+  width: 160px;
+  height: 50px;
+  background-color: #fb565a;
+  color: white;
+  border: none;
+}
+
+.green-button {
+  width: 160px;
+  height: 50px;
+  background-color: #3fb975;
+  color: white;
+  border: none;
+}
+
+.yellow-button {
+  width: 160px;
+  height: 50px;
+  background-color: #efc84a;
+  color: white; 
+  border: none;
+}
+
+.red-button-3 {
+  width: 219px;
+  height: 50px;
+  background-color: #fb565a;
+  color: white;
+  border: none;
+}

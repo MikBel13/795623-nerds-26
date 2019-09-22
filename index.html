@@ -3,9 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+	
+<!--подключае шрифты, нормализацию и CSSфайл -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
   </head>
   <body>
-    <header>
+    <header class="grey-back">
   	  <nav>
 	    <a href="/">
   	  	  <img src="img/nerds-logo.svg" width="180" height="100" alt="Логотип «Nёrd's»">
@@ -15,29 +21,27 @@
   	      <li><a href="customers.html">Клиенты</a></li>
   		  <li><a href="catalog.html">Магазин</a></li>
   		  <li><a href="contacts.html">Контакты</a></li>
-  		  <li><a class="basket" href="basket.html">Корзина</a></li> 		  
+        <li><img src="img/cart-icon.svg" width="16" height="16" alt="backet"><a class="basket" href="basket.html">Корзина</a></li> 		  
   	    </ul>
   	  </nav>
-    </header>
-
-    <main>
-      <h1 class="visually-hidden">Дизайн-студия "Nёrd's". г. Краснодар</h1>      
       <section class="gadgets">
-        <h2 class="visually-hidden">Качественный дизайн</h2>  
+       <h1 class="visually-hidden">Дизайн-студия "Nёrd's". г. Краснодар</h1>            
+       <h2 class="visually-hidden">Качественный дизайн</h2>  
         <p class="superbig">Долго, дорого, скурпулезно</p>
-        <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения</p>	    
+        <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения</p>     
         <form action="page/learn-more.html">
-          <button>Узнать больше</button>
+          <button class="red-button">Узнать больше</button>
         </form>
-   	    <img src="img/gadgets.png" width="698" height="413" alt="Gadgets">   
-      </section>
-
+        <img src="img/gadgets.png" width="698" height="413" alt="Gadgets">   
+      </section>    
+    </header>
+    <main>
       <section>
         <img src="img/websites.png" width="180" height="100" alt="Веб-сайты">
         <h2 class="big">Веб-сайты</h2>
 		<p>Мир никогда не будет прежним после того, как увидит ваш сайт</p> 
         <form action="page/order-website.html">
-          <button>Заказать</button>
+          <button class="red-button-2">Заказать</button>
         </form>	        		
 	  </section>
       <section>
@@ -45,7 +49,7 @@
       	<h2 class="big">Приложения</h2>
 		<p>Покорите топ-10 приложений в AppStore и Google Play</p>
         <form action="page/order-app.html">
-          <button>Заказать</button>
+          <button class="green-button">Заказать</button>
         </form>
 	  </section>
 	  <section>
@@ -53,14 +57,14 @@
       	<h2 class="big">Презентации</h2>
 		<p>Вы даже не представляете, насколько вы изумительны!</p>
         <form action="page/order-presentation.html">
-          <button>Заказать</button>
+          <button class="yellow-button">Заказать</button>
         </form>
 	  </section>
       <section>
         <h2 class="visually-hidden">Наши услуги</h2>
         <p class="screaming-inscription">Мы - маленькая, но гордая дизайн-студия из Краснодара.</p>
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>превыше креатива. Работаем не покладая рук, как роботы.</p>
-        <h2 class="small">Выполняем заказы на разработку:</h2>
+        <h2 class="small">ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</h2>
         <ul>
           <li>Веб-сайтов любой сложности</li>
           <li>Мобильных приложений для IOS и Android</li>
@@ -69,14 +73,14 @@
        <img src="img/nerds-illustration.png" width="360" height="208" alt="Мы - Nёrd's!">
       </section>
     
-      <section>
+      <section class="small">
         <h2 class="visually-hidden">Точность во всем</h2>
         <p>С 2004 года любим точность во всем:</p>
-        <p class="percent">146</p>
+        <p class="screaming-inscription">146</p><p>%</p>
         <p>Уровень<br>самоотдачи</p>
-        <p class="percent">100</p>
+        <p class="screaming-inscription">100</p><p>%</p>
         <p>Соблюдение<br>сроков</p>     
-        <p class="percent">50</p>
+        <p class="screaming-inscription">50%</p><p>%</p>
         <p>Минимальная<br>предоплата</p>      
       </section>
 
@@ -97,14 +101,14 @@
 
       <section class="map">
       	<img src="img/map.jpg" width="1725" height="808" alt="Мы на карте">
-        <h2>NЁRDS DESIGN STUDIO</h2>
-        <p>1911186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
-        <p>тел.: +7 (812) 275-75-75</p>
+        <h2 class="design">NЁRDS DESIGN STUDIO</h2>
+        <p class="adress">1911186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>
+        тел.: +7 (812) 275-75-75</p>
         <!-- странная, однако, краснодарская студия с адресом в Питере))-->       
        <form action="send-message.html">
-          <button>НАПИШИТЕ НАМ</button>
+          <button class="red-button-3">НАПИШИТЕ НАМ</button>
         </form>
-    	<img src="img/map-marker.png" width="231" height="190" alt="Здесь">
+    	  <img src="img/map-marker.png" width="231" height="190" alt="Здесь">
       </section>
 
     </main>
