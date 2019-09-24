@@ -31,16 +31,16 @@ a {
 
 /*--шрифты--*/
 
-.superbig {
+.superbig-text {
   font-size: 55px;
 }
 
-.big {
+.big-text {
   font-size: 24px;
   font-weight: bold;
 }
 
-.big-2 {
+.big-text-2 {
   font-size: 36px;
   font-weight: bold;
 }
@@ -49,21 +49,21 @@ a {
   font-size: 45px;
 }
 
-.small {
+.small-text {
   font-weight: bold;
 }
 
-.verysmall {
+.verysmall-text {
   font-size: 14px;
 }
 
 
-.design {
+.design-text {
   font-size: 18px;
   font-weight: bold;
 }
 
-.adress {
+.adress-text {
   font-size: 16px;
   color: #7a7a7a;
 }
