@@ -1,0 +1,326 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1250px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+
+}
+/*--  сетки от--*/
+
+header {
+  margin: 0;
+  padding: 50px 50px 50px 100px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.main-menu {
+  display: flex;	
+  justify-content: space-between;
+
+}
+
+
+.logo {
+
+  justify-content: flex-start;
+}
+.navigation {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.navigation-2 {
+  display: flex; 
+  justify-content: space-between;
+  padding: 0 0 0 100px;
+}
+
+.studio {
+  padding: 50px 20px 20px 20px;
+
+} 
+
+.clients {
+  padding: 50px 20px 20px 20px;
+}
+.shop {
+  padding: 50px 20px 20px 20px;
+
+}
+.contacts {
+  padding: 50px 20px 20px 20px;
+
+}
+
+.basket-logo {
+
+  padding: 50px 50px 20px 20px;
+
+}
+
+.basket {
+
+  padding: 50px 100px 20px 0;
+}
+
+
+.gadgets {
+	display: flex;
+	
+}
+
+.gadgets-text {
+   padding: 0 100px 20px 0;
+	
+}
+
+.product {
+   display: flex;	
+   padding: 50px 50px 50px 25px;	
+   justify-content: space-around;
+}
+
+.watchword {
+   display: flex;   
+	
+}
+
+.watchword-we {
+  padding: 0 0 0 100px;
+}
+
+.watchword-emblem {
+  padding: 0 0 0 100px;
+}
+
+.watchword-logo {
+  padding: 0 0 0 50px;
+}
+
+.advantages {
+   display: flex;
+   padding: 0 0 0 40px;  	
+}
+
+.persent {
+   padding: 30px 0 0 0;    
+   font-size: 20px;
+}
+
+.labels {
+display: flex;
+padding: 100px;  
+}
+
+.academy {
+   padding: 30px;  
+}
+
+.borodinski {
+   padding: 30px; 
+}
+
+.pink {
+   padding: 30px; 
+}
+
+.mishka {
+   padding: 30px; 
+}
+
+.map {
+   background: #eeeeee url(img/map.jpg);     /* ФОНОВАЯ КАРТА (url(img/map.jpg)) НЕ РАБОТАЕТ!!!!! */
+   display: flex;
+   padding: 50px 50px 50px 100px;	
+   height: 250px;
+}
+
+.nerds-in-map {
+   padding: 0 0 0 500px;
+}
+
+
+.footer-social {
+   display: flex;	
+   padding: 100px;
+}
+
+.footer-social-text {
+  line-height: 0.1;
+}
+
+/*--  сетки  до--*/
+
+
+/* для catalog */
+
+.cost-grid-features {
+  display: flex;
+  padding: 80px;
+}
+
+.button-show {
+ text-align: center;
+ width: 150px;
+}
+
+.middle {
+  padding: 0 0 0 100px;	
+}
+
+.sort {
+  display: flex;
+
+}
+
+.line {
+  display: flex;	
+}
+
+.line-2 {
+  padding: 0 0 0 50px;	
+}
+
+
+.pagination-list {
+  display: flex;	
+  padding: 50px 0 0 0;	
+}
+
+.pagination-item-1 {
+  width: 50px;
+  height: 50px;  
+  text-align: center;
+  padding: 10px;	
+}
+
+.pagination-item {
+  margin: 0 0 0 20px;
+  width: 50px;
+  height: 50px;  
+  text-align: center;
+  padding: 10px;	
+}
+
+.pagination-next {
+  margin: 0 0 0 50px;	
+  width: 200px;
+  height: 50px;  
+  text-align: center;
+  padding: 10px;	
+}
+
+
+
+/*---серый фон для шапки---*/
+.grey-back {
+  background-color: #eeeeee;   
+}
+
+
+/* ссылка не подчеркивается, цвет ссылок чёрный */
+a {
+  text-decoration: none;  
+  color: black;
+}
+
+.visually-hidden {  /*--скрытый заголовок---*/
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/*--шрифты--*/
+
+.superbig-text {
+  font-size: 55px;
+}
+
+.big-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.big-text-2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.screaming-inscription {
+  font-size: 45px;
+}
+
+.small-text {
+  font-weight: bold;
+}
+
+.design-text {
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.verysmall-text {
+  font-size: 14px;
+    padding: 20px 0 0 50px;
+}
+
+.accuracy-text {
+  padding: 0 0 0 50px;
+}
+
+.adress-text {
+  font-size: 16px;
+  color: #7a7a7a;
+}
+
+/*--кнопки--*/
+
+.red-button {
+  width: 240px;
+  height: 50px;
+  background-color: #fb565a;
+  color: white;
+  border: none;
+}
+
+.red-button-2 {
+  width: 160px;
+  height: 50px;
+  background-color: #fb565a;
+  color: white;
+  border: none;
+}
+
+.green-button {
+  width: 160px;
+  height: 50px;
+  background-color: #3fb975;
+  color: white;
+  border: none;
+}
+
+.yellow-button {
+  width: 160px;
+  height: 50px;
+  background-color: #efc84a;
+  color: white; 
+  border: none;
+}
+
+.red-button-3 {
+  width: 219px;
+  height: 50px;
+  background-color: #fb565a;
+  color: white;
+  border: none;
+}
