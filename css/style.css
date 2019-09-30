@@ -136,14 +136,14 @@ padding: 100px;
 }
 
 .map {
-   background: #eeeeee url(img/map.jpg);     /* ФОНОВАЯ КАРТА (url(img/map.jpg)) НЕ РАБОТАЕТ!!!!! */
+   background: #eeeeee url(../img/map.jpg);
    display: flex;
    padding: 50px 50px 50px 100px;	
    height: 250px;
 }
 
 .nerds-in-map {
-   padding: 0 0 0 500px;
+   padding: 0 0 0 450px;
 }
 
 
@@ -154,6 +154,7 @@ padding: 100px;
 
 .footer-social-text {
   line-height: 0.1;
+    padding: 0 0 0 100px;
 }
 
 /*--  сетки  до--*/
@@ -324,3 +325,21 @@ a {
   color: white;
   border: none;
 }
+
+.white-square {
+  background-color: white;
+  padding: 30px;
+}
+
+/*--серые круги--*/
+
+.circle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px; 
+	background-color: #D0D0D0;
+  padding: 30px;
+  margin: 10px;
+
+}
+
