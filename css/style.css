@@ -18,6 +18,7 @@ header {
 
 h1 {
 	text-align: center;
+	font-size: 50px;
 }
 
 .main-menu {
@@ -61,7 +62,7 @@ h1 {
 
 .basket-logo {
 
-  padding: 50px 50px 20px 20px;
+  padding: 50px 20px 20px 250px;
 
 }
 
@@ -76,10 +77,6 @@ h1 {
 	
 }
 
-.gadgets-text {
-   padding: 0 100px 20px 0;
-	
-}
 
 .product {
    display: flex;	
@@ -89,11 +86,17 @@ h1 {
 
 .watchword {
    display: flex;   
-	
 }
 
 .watchword-we {
-  padding: 0 0 0 100px;
+  padding: 0 0 0 70px;
+}
+
+ul {
+    list-style: none;
+	padding: 0;
+	margin: 0;
+	line-height: 2.5;
 }
 
 .watchword-emblem {
@@ -154,10 +157,9 @@ padding: 100px;
 
 .footer-social-text {
   line-height: 0.1;
-    padding: 0 0 0 100px;
+  padding: 0 0 0 100px;
 }
 
-/*--  сетки  до--*/
 
 
 /* для catalog */
@@ -166,6 +168,18 @@ padding: 100px;
   display: flex;
   padding: 80px;
 }
+
+.prices {
+  display: flex;  
+}
+
+
+.output-area {
+  background-color: #eeeeee; 
+  width: 80px;
+  text-align: center;
+}
+
 
 .button-show {
  text-align: center;
@@ -219,17 +233,16 @@ padding: 100px;
 }
 
 
-
 /*---серый фон для шапки---*/
 .grey-back {
   background-color: #eeeeee;   
 }
 
-
-/* ссылка не подчеркивается, цвет ссылок чёрный */
-a {
-  text-decoration: none;  
-  color: black;
+.grey-back-2  { /*- ползунок-*/
+  background-color: #eeeeee;
+  height: 60px;  
+  margin: 10px 0 10px 0;
+  vertical-align: middle;
 }
 
 .visually-hidden {  /*--скрытый заголовок---*/
@@ -267,12 +280,11 @@ a {
 .design-text {
   font-size: 18px;
   font-weight: bold;
-
 }
 
 .verysmall-text {
   font-size: 14px;
-    padding: 20px 0 0 50px;
+  padding: 20px 0 0 50px;
 }
 
 .accuracy-text {
@@ -281,6 +293,10 @@ a {
 
 .adress-text {
   font-size: 16px;
+  color: #7a7a7a;
+}
+
+.grey-text {
   color: #7a7a7a;
 }
 
@@ -337,9 +353,24 @@ a {
   border-radius: 50%;
   width: 30px;
   height: 30px; 
-	background-color: #D0D0D0;
+  background-color: #D0D0D0;
   padding: 30px;
   margin: 10px;
 
 }
 
+/*--ссылки--*/
+a {
+  color: black; /* Цвет обычной ссылки */ 
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+a:visited {
+  color: black; /* Цвет посещённой ссылки */
+  border-bottom: 1px solid red; /* нижнее красное подчеркивание */
+  padding-bottom: 11px; 
+} 
+ a:hover {
+  color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */  
+  text-decoration: underline; /* Добавляем подчеркивание */
+}
+   
